@@ -134,9 +134,10 @@
 
     font-family: 'Roboto Condensed', sans-serif;
   }
-  footer {
-    height:170px;
+  .footer {
     background-color: #0d5894;
+    padding: 70px 0;
+    
   }
   .copyright {
       padding-top: 120px;
@@ -158,6 +159,45 @@
     .image2 img {
       width:30vw;
       margin: 50px 10px 20px 30px;
+    }
+    .conatiner3{
+      margin: auto;
+      width:100px;
+      
+    }
+    .footer_col ul {
+      list-style: none;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer_col {
+      width: 17%;
+      padding: 0 15px;
+    }
+    .footer_col h4{
+        font-size:25px;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+        font-weight:bold;
+        position: relative;
+    }
+    .footer_col h4::before{
+      content: '';
+      position: absolute;
+      left:0;
+      bottom: -10px;
+      height: 2px;
+      box-sizing: border-box;
+      background-color: red;
+      width: 50px;
+    }
+    .footer_col ul li:not(:last-child){
+      margin-bottom: 10px;
+    }
+    .wrap {
+      flex-wrap: wrap;
     }
 
    
@@ -194,6 +234,7 @@
         type="video/mp4" />
     </video>
   </div>
+  <div class="wrap">
     <div class="content">
       <h1>EXPLORE.DREAM.DISCOVER</h1>
     </div>
@@ -207,6 +248,7 @@
    <div class="container2">
     <h1>LATEST BLOG POSTS</h1>
    </div>
+  </div>
    <div class="image">
     <img src="giftguide2.png" alt="camera">
     <img src="gearguide5.png" alt="cloths">
@@ -223,7 +265,52 @@
     <img src="budapestwhere.png" alt="mosque">
     <img src="vancouverstay.png" alt="city">
   </div>
-   <footer>
+  <audio control autoplay >
+    <source src="Forza Horizon 5  Title Screen Song 4K 1 Hour.mp3" type="audio/mp3">
+  </audio>
+   <footer class="footer">
+    <div class="container3">
+      <div class="row">
+        <div class="footer_col">
+          <h4>ABOUT US</h4>
+          <ul>
+            <li>About mountain</li>
+            <li>Meet the team</li>
+            <li>Write for us</li>
+            <li>Contact us</li>
+            <li>Private policy</li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4>TRAVEL TIPS</h4>
+          <ul>
+            <li>Start here</li>
+            <li>Travel blog</li>
+            <li>Destination guides</li>
+            <li>Travel credit cards</li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4>BOOK YOUR TRIP</h4>
+          <ul>
+            <li>Accomodation</li>
+            <li>Cheap flights</li>
+            <li>Travel insurance</li>
+            <li>Favorite hostel</li>
+            <li>Favorite companies</li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4>BOOKS AND COURSES</h4>
+          <ul>
+            <li>Destination guidebook</li>
+            <li>Blogging mentorship</li>
+            <li>Writing mentorship</li>
+            <li>My travel journey</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="copyright">
       <p>Copyright <b>&#169;</b> www.MountainTravelBlog.com | All right reserved</p>
    </div>
